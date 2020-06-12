@@ -1,0 +1,59 @@
+{
+  "name": "yuyu-gulp-sample",
+  "version": "0.2.0",
+  "description": "gulp build project detail",
+  "keywords": [
+    "yuyu-gulp-flow",
+    "lanQueen"
+  ],
+  "homepage": "https://github.com/lanQueen/yuyu-gulp-flow#readme",
+  "bugs": {
+    "url": "https://github.com/lanQueen/yuyu-gulp-flow/issues"
+  },
+  "license": "MIT",
+  "author": "lanQueen <752177836@qq.com> (https://github.com/lanQueen)",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "bin": "bin/yuyu-gulp-flow.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lanQueen/yuyu-gulp-flow.git"
+  },
+  "scripts": {
+    "lint": "standard --fix"
+  },
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "autoprefixer": "^9.8.0",
+    "browser-sync": "^2.26.7",
+    "csscomb": "^4.3.0",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^6.1.0",
+    "gulp-load-plugins": "^2.0.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-size": "^3.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-swig": "^0.9.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^4.0.1",
+    "minimist": "^1.2.5",
+    "standard": "^14.3.4"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=6"
+  }
+}
